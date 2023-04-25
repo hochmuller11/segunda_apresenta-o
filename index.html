@@ -5,11 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de cadastro</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0%;
+            padding: 0%;
+            margin-left: 36%;
+            margin-top: 2%;
+            justify-content: center;
+        
+        }
+        input, select, button {
+            border-radius: 5px;
+        }
+
+        fieldset {
+            margin-bottom: 2%;
+        }
+        
+       
+
+    </style>
 </head>
 <body>
    <div>
     <h1>Cadastro de Devs</h1>
-    <p>Complete suas informações:</p>
+    <p> 
+       <b>  Suas informações:  </b>
+
+    </p>
     <br>
 
     <form>
@@ -19,16 +44,14 @@
                 <input type="text" name="nome" id="nome">
             </div>
             <div>
-                <label>Sobrenome</label>
+               <label>Sobrenome</label> 
                 <input type="text" nome="Sobrenome" id="sobrenome">
             </div>
-        </fieldset>
-
-        <div>
+       <div>
             <label>Email</label>
             <input type="email" name="email" id="email">
         </div>
-
+         </fieldset>
         <div>
             <label>De qual lado da aplicação você desenvolve?</label>
             <label>
@@ -41,7 +64,7 @@
         </div>
         <div>
             <label>Senioridade</label>
-            <select id="Senioridade">
+            <select  id="Senioridade">
             <option>Junior</option>
             <option>Pleno</option>
             <option>Senior</option>
